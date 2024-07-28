@@ -255,9 +255,11 @@ section:nth-child(even) {
   color: var(--green);
   border-radius: 50%;
   margin-top: 2rem;
+  background-color: rgb(212, 173, 173);
+  padding-top: 12px;
 }
 .doctors .box-container .box .share a:hover {
-  color: #e64444;
+  background-color: #ad8447;
 }
 
 .book .row {
@@ -479,14 +481,14 @@ section:nth-child(even) {
     opacity: 1;
     transition: 0.2s ease-out;
   }
-  .header .navbar a{
+  .header .navbar a {
     font-size: 2rem;
     display: block;
     margin: 2.5rem;
   }
 }
-@media (max-width: 450px){
-    html{
-        font-size: 50%;
-    }
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
